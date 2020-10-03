@@ -12,7 +12,7 @@ section '.data' data readable writable
         VecSize         db 'Array size:', 0
         ArrayB          db 'Array B:', 10, 0
         ArrayA          db 'Array A:', 10, 0
-        IncorectSize    db ' = %d' , 10, 0
+        IncorectSize    db 'Incorrect size = %d' , 10, 0
         VecElemIn       db '[%d]: ', 0
         VecElemOut      db '[%d] = %d', 10, 0
         ScanElem        db  '%d', 0
